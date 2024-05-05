@@ -8,8 +8,7 @@ import json
 class Joint_Progression_Algorithm(object):
 
     def __init__(
-        self, curSection: str, problemsFilePath: str = "./Instructor Data/problems.json"
-    ):
+        self, curSection: str, problemsFilePath: str = "./Instructor Data/problems.json"):
 
         self.problemsFilePath = problemsFilePath
 
