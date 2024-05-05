@@ -1,8 +1,11 @@
-from tree import Static_Tree, Build_Tree_Data
 import math
-from ZPDES_Memory_CONCEPT import ZPDES_Memory_CONCEPT
-from ZPDES_Memory_PROBLEM import ZPDES_Memory_PROBLEM
 import json
+
+from .utils.tree import Static_Tree, Build_Tree_Data
+from .utils.progression_tree_creation import makeStaticTree, makeProblemProgressionTrees
+
+from .mab_agents.ZPDES_Memory_CONCEPT import ZPDES_Memory_CONCEPT
+from .mab_agents.ZPDES_Memory_PROBLEM import ZPDES_Memory_PROBLEM
 
 
 class Joint_Progression_Algorithm(object):
@@ -11,6 +14,7 @@ class Joint_Progression_Algorithm(object):
         self, curSection: str, problemsFilePath: str = "./Instructor Data/problems.json"
     ):
 
+        # Make Concept and Problem Progression Trees
         self.problemsFilePath = problemsFilePath
 
         self.progression_tree_concept = self.makeConceptProgressionTree(curSection)
@@ -18,6 +22,7 @@ class Joint_Progression_Algorithm(object):
             self.makeProblemProgressionTrees()
         )
 
+        # Make Overarching Concept MAB
         params_concept = {
             "history_length": 4,
             "progress_threshold": 0.74,
@@ -31,6 +36,7 @@ class Joint_Progression_Algorithm(object):
             self.progression_tree_concept, params=params_concept
         )
 
+        # Make all Problem MABs
         params_problem = {
             "history_length": 2,
             "progress_threshold": 0.74,
@@ -62,14 +68,17 @@ class Joint_Progression_Algorithm(object):
             )
 
     def getCurrentQuestionId(self):
-        # get next question
+        """Gets the next question id given all previous data recorded"""
 
+        # Check if the algorithm is complete
         concept_give = self.progression_algorithm_concept.get_current_problem()
         self.curConcept = concept_give
 
-        if self.curConcept is None:  # Done with the concept algorithm!
+        if self.curConcept is None:
             return None, None
 
+        # If there is an assigned concept, we have to proceed forth with another question. Consult the
+        # corresponding problem MAB (given we now know the current concept) for the next question.
         problem_give = self.progression_algorithm_problem_dict[
             concept_give
         ].get_current_problem()
@@ -78,12 +87,15 @@ class Joint_Progression_Algorithm(object):
             self.progression_algorithm_problem_dict[concept_give]
         )
 
-        # No more problems in this concept yet we're still being asked it
+        # If there are no problems left in this problem MAB, it means we've exhausted this concept's problems
+        # despite not having "mastered" it (as the concept MAB doesn't think we're done). As a result, we
+        # have to default to being complete since we have too few problems.
         if self.curProblem is None:
-            # We need to remove this concept from the concept MAB, there's nothing else to ask
+            # Delete problem from the frontier (mark it as mastered)
             self.progression_algorithm_concept.ZPD.remove(self.curConcept)
             self.progression_algorithm_concept.mastered_concepts.append(self.curConcept)
 
+            # Obtain the next problem (this code should be refactored into it's own function in the future)
             initial_weight = (
                 self.progression_algorithm_concept.params["initial_weight"]
                 * self.progression_algorithm_concept.params["initial_weight_multiplier"]
@@ -116,77 +128,18 @@ class Joint_Progression_Algorithm(object):
         return self.curConcept, self.curProblem
 
     def updateStudentCorrectness(self, student_answer_correctness):
-        # update student correctness
+        """Given a student's correctness to the current question, update the problem and concept MABs accordingly"""
 
+        # Update concept MAB
         self.progression_algorithm_concept.student_answer_update(
             student_answer_correctness,
             difficulty=self.problemDifficulties[self.curProblem],
         )
 
+        # Update problem MAB
         self.current_progression_algorithm_problem.student_answer_update(
             student_answer_correctness
         )
-
-    def makeStaticTree(self, all_concepts, tree_structure):
-        concept_problems = dict()
-        for concept in all_concepts:
-            concept_problems[concept] = [concept]
-
-        problem_components = {}
-        for concept, concept_problems_list in concept_problems.items():
-            for problem in concept_problems_list:
-                problem_components[problem] = [problem]
-        all_basic_components = list(problem_components.keys())
-
-        data = Build_Tree_Data(
-            all_concepts=all_concepts,
-            concept_problems=concept_problems,
-            all_basic_components=all_basic_components,
-            problem_components=problem_components,
-            n=1,
-        )
-
-        return Static_Tree(
-            children=tree_structure,
-            all_concepts=all_concepts,
-            concept_problems=concept_problems,
-            all_basic_components=all_basic_components,
-            problem_components=problem_components,
-        )
-
-    def makeProblemProgressionTrees(self):
-
-        progression_tree_problem_dict = dict()
-        problem_difficulties = dict()
-
-        all_concepts = self.progression_tree_concept.return_all_concepts()
-
-        with open(self.problemsFilePath) as json_file:
-            problemsDict = json.load(json_file)
-
-        for concept in all_concepts:
-            problemList = problemsDict[concept]
-
-            # Define tree necessities
-            all_problems = []
-            tree_structure = {"Root": []}
-
-            for problem in problemList:
-                id = problem["id"]
-                difficulty = problem["difficulty"]
-
-                problem_difficulties[id] = difficulty
-
-                all_problems.append(id)
-                tree_structure["Root"].append(id)
-                tree_structure[id] = []
-
-            curProblemProgressionTree = self.makeStaticTree(
-                all_problems, tree_structure
-            )
-            progression_tree_problem_dict[concept] = curProblemProgressionTree
-
-        return progression_tree_problem_dict, problem_difficulties
 
     def makeConceptProgressionTree(self, section):
         all_concepts = []
@@ -279,4 +232,4 @@ class Joint_Progression_Algorithm(object):
         else:
             raise Exception("Invalid section")
 
-        return self.makeStaticTree(all_concepts, tree_structure)
+        return makeStaticTree(all_concepts, tree_structure)

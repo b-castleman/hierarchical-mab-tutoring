@@ -1,8 +1,5 @@
-import numpy as np
 import json
-from graphviz import Digraph
 import pickle
-import compare_functions
 
 
 def remove_item(item_list, item):
