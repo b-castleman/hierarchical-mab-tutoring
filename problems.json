@@ -1,0 +1,1142 @@
+{
+    "ai_definitions": [
+        {
+            "question": "The previous video detailed many definitions of AI, which follow a core theme. Given this, which of the following is not a plausible definition of AI?",
+            "choices": [
+                "AI is the simulation of human intelligence processes by machines, including learning, reasoning, problem-solving, and understanding natural language.",
+                "AI is a field of computer science that focuses on creating machines and software capable of performing tasks that typically require human intelligence.",
+                "AI is a technology that exclusively relies on human operators to perform tasks, with no autonomous decision-making capabilities.",
+                "AI is the development of algorithms and models that enable computers to perform tasks without explicit programming, learning from data and improving over time.",
+                "AI is a branch of computer science that seeks to create systems capable of perceiving and interacting with the world, making decisions, and achieving goals."
+            ],
+            "solution": [
+                "AI is a technology that exclusively relies on human operators to perform tasks, with no autonomous decision-making capabilities."
+            ],
+            "difficulty": 2,
+            "id": "intro id!"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "agsnganjgsjnk"
+        }
+    ],
+    "four_schools_of_thought": [
+        {
+            "question": "Which school of thought is concerned with intelligent agents \"doing the right thing\"?",
+            "choices": [
+                "Acting human-like",
+                "Thinking human-like",
+                "Thinking rationally",
+                "Acting rationally"
+            ],
+            "solution": [
+                "Acting rationally"
+            ],
+            "difficulty": 2,
+            "id": "this is aa placeholder for q1's id"
+        },
+        {
+            "question": "Which comment about the four schools of thought is NOT correct?",
+            "choices": [
+                "Acting human-like: The Turing test approach closely aligns with this school of thought.",
+                "Thinking human-like: Cognitive science and modeling inspires this school of thought.",
+                "Thinking rationally: This school of thought is the most common approach to AI today.",
+                "Acting rationally: An agent that acts rationally acts so as to achieve the best outcome."
+            ],
+            "solution": [
+                "Thinking rationally: This school of thought is the most common approach to AI today."
+            ],
+            "difficulty": 3,
+            "id": "this iss a placeholder for q4's id"
+        },
+        {
+            "question": "Which school of thought includes using logical deductions to make inferences of the world?",
+            "choices": [
+                "Acting human-like",
+                "Thinking human-like",
+                "Thinking rationally",
+                "Acting rationally"
+            ],
+            "solution": [
+                "Thinking rationally"
+            ],
+            "difficulty": 2,
+            "id": "this issss a placeholder for q5's id"
+        },
+        {
+            "question": "Which school of thought is concerned with neuroscience?",
+            "choices": [
+                "Acting human-like",
+                "Thinking human-like",
+                "Thinking rationally",
+                "Acting rationally"
+            ],
+            "solution": [
+                "Thinking human-like"
+            ],
+            "difficulty": 2,
+            "id": "placeholder!!"
+        },
+        {
+            "question": "Which school of thought includes the Turing Test (a computer exhibiting intelligent behaviour indistinguishable from that of a human)?",
+            "choices": [
+                "Acting human-like",
+                "Thinking human-like",
+                "Thinking rationally",
+                "Acting rationally"
+            ],
+            "solution": [
+                "Acting human-like"
+            ],
+            "difficulty": 2,
+            "id": "placeholder here!"
+        }
+    ],
+    "turing_test_definition": [
+        {
+            "question": "Which of the following statements accurately describe the Turing Test?",
+            "choices": [
+                "It was proposed by Alan Turing in the 1950s.",
+                "The test involves a human judge, a human respondent, and a machine.",
+                "The primary goal of the test is to determine if a machine can exhibit intelligent behavior indistinguishable from that of a human.",
+                "It assesses a machine's ability to solve mathematical problems.",
+                "Passing the Turing Test requires a machine to have true consciousness."
+            ],
+            "solution": [
+                "It was proposed by Alan Turing in the 1950s.",
+                "The test involves a human judge, a human respondent, and a machine.",
+                "The primary goal of the test is to determine if a machine can exhibit intelligent behavior indistinguishable from that of a human."
+            ],
+            "difficulty": 3,
+            "id": "idyay"
+        },
+        {
+            "question": "What is the Turing Test",
+            "choices": [
+                "A test in which a human being should be unable to distinguish a machine's actions from another human",
+                "A test in which a computer solves complex mathematical problems",
+                "A test in which a computer judges whether or not actions are human-like"
+            ],
+            "solution": [
+                "A test in which a human being should be unable to distinguish a machine's actions from another human"
+            ],
+            "difficulty": 1,
+            "id": "idyay!!!"
+        }
+    ],
+    "turing_test_examples": [
+        {
+            "question": "Which of the following scenarios can constitute a Turing test (check all that apply)?",
+            "choices": [
+                "A machine and a human anonymously submit a letter each to a jury of humans, and the jury has to determine which letter belongs to the human.",
+                "A robot dances in front of a jury of professional dancers, and the jury ranks the performance of the robot out of 10.",
+                "A machine and a human drive a car each with opaque windows, and the jury of humans has to guess which car belongs to the human.",
+                "A robot and a human race in a 100 meters sprint, and the winner gets a special prize."
+            ],
+            "solution": [
+                "A machine and a human anonymously submit a letter each to a jury of humans, and the jury has to determine which letter belongs to the human.",
+                "A machine and a human drive a car each with opaque windows, and the jury of humans has to guess which car belongs to the human."
+            ],
+            "difficulty": 3,
+            "id": "id!yay"
+        },
+        {
+            "question": "A computer creates musical sounds and a human tries to decide if they were made by a human or a machine. Does this constitute a Turing Test?",
+            "choices": [
+                "True",
+                "False"
+            ],
+            "solution": [
+                "True"
+            ],
+            "difficulty": 1,
+            "id": "id!responseyay"
+        },
+        {
+            "question": "A computer competes against a human in solving a crossword puzzle the fastest. Does this constitute a Turing Test?",
+            "choices": [
+                "True",
+                "False"
+            ],
+            "solution": [
+                "False"
+            ],
+            "difficulty": 1,
+            "id": "id!responseyaynice"
+        }
+    ],
+    "applications_of_ai_examples": [
+        {
+            "question": "Consider “DishMe”, a revolutionary AI to fill the dishwasher machine. DishMe can move around the kitchen. You put dirty dishes on the counter or in the sink or on top of the stove, and say no more, just push the button and DishMe will retrieve the dishes, pick them up, organize them in the dishwasher machine, and start a washing cycle. DishMe can handle all types of dishes and does a nifty good job at optimizing the space usage in the machine. What kind of AI applications is DishMe (check all that apply)?",
+            "choices": [
+                "Robotics",
+                "Computer vision",
+                "Spoken language processing",
+                "Natural language processing",
+                "Planning",
+                "Games"
+            ],
+            "solution": [
+                "Robotics",
+                "Computer vision",
+                "Planning"
+            ],
+            "difficulty": 4,
+            "id": "iafadasdf"
+        },
+        {
+            "question": "Which of the following fields could AI be applied to (check all that apply)?",
+            "choices": [
+                "Robotics",
+                "Computer vision",
+                "Spoken language processing",
+                "Natural language processing",
+                "Planning",
+                "Games"
+            ],
+            "solution": [
+                "Robotics",
+                "Computer vision",
+                "Spoken language processing",
+                "Natural language processing",
+                "Planning",
+                "Games"
+            ],
+            "difficulty": 1,
+            "id": "iafadasdfdasd"
+        },
+        {
+            "question": "Imagine Squiggly, a robot that, once a human speaks an input to, uses various motors and a pencil to write the given speech on a piece of paper. What kind of AI applications is Squiggly (check all that apply)?",
+            "choices": [
+                "Robotics",
+                "Computer vision",
+                "Spoken language processing",
+                "Natural language processing",
+                "Planning",
+                "Games"
+            ],
+            "solution": [
+                "Robotics",
+                "Spoken language processing",
+                "Planning"
+            ],
+            "difficulty": 3,
+            "id": "words have been spoken!!"
+        }
+    ],
+    "gestation_and_early_enthusiasm_era": [
+        {
+            "question": "Which of the following occurred in the Gestation of AI period?",
+            "choices": [
+                "Alan Turing published \"Computing Machinery and Intelligence\"",
+                "McCulloch and Pitts proposed a model for the neuron",
+                "Deep neural networks were invented and deep learning took over",
+                "AI research slowed down in a period known as the AI Winter"
+            ],
+            "solution": [
+                "Alan Turing published \"Computing Machinery and Intelligence\"",
+                "McCulloch and Pitts proposed a model for the neuron"
+            ],
+            "difficulty": 3,
+            "id": "stuff! nice"
+        },
+        {
+            "question": "Which inventions were popular during the Early Enthusiasm and Expectations era?",
+            "choices": [
+                "World Wide Web",
+                "The Perceptron",
+                "Adaline",
+                "Benchmark Data"
+            ],
+            "solution": [
+                "The Perceptron",
+                "Adaline"
+            ],
+            "difficulty": 2,
+            "id": "somasfdadfseid!"
+        },
+        {
+            "question": "Where was the term \"artificial intelligence\" coined from?",
+            "choices": [
+                "Alan Turing's \"Computing Machinery and Intelligence\"",
+                "The Dartmouth Summer Research Project",
+                "Arthur Samuel's checker's playing program",
+                "Frank Rosenblatt in his paper on the Perceptron"
+            ],
+            "solution": [
+                "The Dartmouth Summer Research Project"
+            ],
+            "difficulty": 1,
+            "id": "somadsdgasdfeid!"
+        }
+    ],
+    "knowledge_based_era": [
+        {
+            "question": "The reasons for AI Winter (1980 - 1990) are (check all that apply):",
+            "choices": [
+                "Expert systems could NOT handle uncertainty",
+                "Expert systems could NOT incorporate domain knowledge",
+                "Expert systems could NOT learn from experience",
+                "Funds dried up",
+                "Use of toy examples could NOT scale up"
+            ],
+            "solution": [
+                "Expert systems could NOT handle uncertainty",
+                "Expert systems could NOT learn from experience",
+                "Funds dried up",
+                "Use of toy examples could NOT scale up"
+            ],
+            "difficulty": 4,
+            "id": "asdfasdfs"
+        },
+        {
+            "question": "Expert systems were created by",
+            "choices": [
+                "Introducing uncertainty concepts through probability",
+                "Encoding systems with domain knowledge",
+                "Creating Perceptron variants",
+                "Having systems learn from experience"
+            ],
+            "solution": [
+                "Encoding systems with domain knowledge"
+            ],
+            "difficulty": 2,
+            "id": "asdasdsa"
+        }
+    ],
+    "ai_becomes_scientific": [
+        {
+            "question": "Recent AI success is due to a large extent to (check all that apply):",
+            "choices": [
+                "Small and curated datasets",
+                "More computational power",
+                "Deep learning architectures",
+                "Using probability to model uncertainty",
+                "Machine learning",
+                "Multidisciplinary collaborations",
+                "Clean energy"
+            ],
+            "solution": [
+                "More computational power",
+                "Deep learning architectures",
+                "Using probability to model uncertainty",
+                "Machine learning",
+                "Multidisciplinary collaborations"
+            ],
+            "difficulty": 4,
+            "id": "dghdfghdf"
+        },
+        {
+            "question": "The following ideas have been heavily emphasized in the \"AI Becomes Scientific\" era:",
+            "choices": [
+                "Probability",
+                "Machine learning",
+                "Boolean logic",
+                "Neural networks",
+                "Expert systems",
+                "Big data",
+                "Deep learning"
+            ],
+            "solution": [
+                "Probability",
+                "Machine learning",
+                "Neural networks",
+                "Big data",
+                "Deep learning"
+            ],
+            "difficulty": 5,
+            "id": "dghdfgdfgafghdf"
+        },
+        {
+            "question": "The World Wide Web facilitated growing collections of:",
+            "choices": [
+                "Text",
+                "Images",
+                "Video",
+                "Genomic data",
+                "Social networks"
+            ],
+            "solution": [
+                "Text",
+                "Images",
+                "Video",
+                "Genomic data",
+                "Social networks"
+            ],
+            "difficulty": 1,
+            "id": "dghdfgasgasdfdfgafghdf"
+        },
+        {
+            "question": "True or false? Probability became increasingly popular as a means of modeling uncertainty in the \"AI Becomes Scientific\" era.",
+            "choices": [
+                "True",
+                "False"
+            ],
+            "solution": [
+                "True"
+            ],
+            "difficulty": 1,
+            "id": "agksfadfkskjndsf"
+        },
+        {
+            "question": "True or false? Deep learning reached success in the \"AI Becomes Scientific\" era through help from powerful hardware",
+            "choices": [
+                "True",
+                "False"
+            ],
+            "solution": [
+                "True"
+            ],
+            "difficulty": 1,
+            "id": "agksfaagfdfkskjndsf"
+        },
+        {
+            "question": "True or false? Deep learning consists a few layers with very limited parameters that are heavily trained upon to achieve high accuracies.",
+            "choices": [
+                "True",
+                "False"
+            ],
+            "solution": [
+                "False"
+            ],
+            "difficulty": 2,
+            "id": "agksfaaghsgdafkmlfdfkskjndsf"
+        }
+    ],
+    "logic_review": [
+        {
+            "question": "Given that p → q, what can we deduce if we know that ¬q is true?",
+            "choices": [
+                "There is not enough information",
+                "¬p is true",
+                "q is true",
+                "p is true"
+            ],
+            "solution": [
+                "¬p is true"
+            ],
+            "difficulty": 4,
+            "id": "asfdsadga"
+        },
+        {
+            "question": "What can we deduce if we know that p V q is true?",
+            "choices": [
+                "There is not enough information",
+                "p is true",
+                "q is true"
+            ],
+            "solution": [
+                "There is not enough information"
+            ],
+            "difficulty": 2,
+            "id": "asfdsaasdfsaddga"
+        },
+        {
+            "question": "What can we deduce if we know that p ∧ q is true?",
+            "choices": [
+                "There is not enough information",
+                "p is true",
+                "q is true"
+            ],
+            "solution": [
+                "p is true",
+                "q is true"
+            ],
+            "difficulty": 2,
+            "id": "asfdsasdfasdaasdfsaddga"
+        }
+    ],
+    "wumpus_specific": [
+        {
+            "question": "Logical agents do which of the following?",
+            "choices": [
+                "Use rigid rules to make inferences",
+                "Contain knowledgebases of their environment",
+                "Include logical deduction game examples such as Wumpus",
+                "Encompass examples involving uncertainty"
+            ],
+            "solution": [
+                "Use rigid rules to make inferences",
+                "Contain knowledgebases of their environment",
+                "Include logical deduction game examples such as Wumpus"
+            ],
+            "difficulty": 3,
+            "id": "asfdsasfgafgadadsfga"
+        },
+        {
+            "question": "Let the following be the knowledge base of an agent playing in Wumpus World, where the agent is current located at position (1,1): B_{1,1}, S_{1,1}, ¬P_{1,2}. What move should the logical agent take to optimize its points?",
+            "choices": [
+                "Move to (1,2)",
+                "Move to (2,1)",
+                "Shoot an arrow to (1,2)",
+                "Shoot an arrow to (2,1)"
+            ],
+            "solution": [
+                "Shoot an arrow to (1,2)"
+            ],
+            "difficulty": 5,
+            "id": "asfdsasfgafgadga"
+        },
+        {
+            "question": "In Wumpus World, which of the following would an AI agent most likely benefit from in order to infer the agent's next action?",
+            "choices": [
+                "Logical deductions (i.e., logical entailment)",
+                "Hardcoded instructions",
+                "Envrionment uncertainty calculations"
+            ],
+            "solution": [
+                "Logical deductions (i.e., logical entailment)"
+            ],
+            "difficulty": 1,
+            "id": "asfdsasfgafgadga"
+        }
+    ],
+    "acting_rationally": [
+        {
+            "question": "What is the primary goal for rational agents?",
+            "choices": [
+                "Doing the right thing",
+                "Thinking of only the right action",
+                "Thinking like a human",
+                "Acting like a human"
+            ],
+            "solution": [
+                "Doing the right thing"
+            ],
+            "difficulty": 2,
+            "id": "this issssss a plasdfadsaceholder for q1'sasdfadsfsd id"
+        }
+    ],
+    "peas": [
+        {
+            "question": "In PEAS, what would the list for letter \"S\" consist of in a self driving car?",
+            "choices": [
+                "Efficiency, speed",
+                "Streets, pedestrians, stoplights",
+                "Wheels, motor, turn signal",
+                "Cameras, infrared sensors"
+            ],
+            "solution": [
+                "Cameras, infrared sensors"
+            ],
+            "difficulty": 1,
+            "id": "this is a fasplaceholderasfdadsf for q1's id!"
+        },
+        {
+            "question": "In PEAS, what would the list for letter \"A\" consist of in a self driving car?",
+            "choices": [
+                "Efficiency, speed",
+                "Streets, pedestrians, stoplights",
+                "Wheels, motor, turn signal",
+                "Cameras, infrared sensors"
+            ],
+            "solution": [
+                "Wheels, motor, turn signal"
+            ],
+            "difficulty": 2,
+            "id": "this isaf a placehoafgagfslder for q1's id!"
+        },
+        {
+            "question": "In PEAS, what would the list for letter \"P\" consist of for Wumpus World?",
+            "choices": [
+                "Gold collected, current score",
+                "Turning, moving forward, firing an arrow",
+                "Blocks on the board"
+            ],
+            "solution": [
+                "Gold collected, current score"
+            ],
+            "difficulty": 3,
+            "id": "this is a placehoafgagfsldeafdsfadjhbr for q1's id!"
+        }
+    ],
+    "environment_types": [
+        {
+            "question": "What is the correct environment (E) categorization for the Wumpus World game?",
+            "choices": [
+                "Fully Observable, Continuous, Multi-Agent, Stochastic",
+                "Partially Observable, Discrete, Multi-Agent, Stochastic",
+                "Partially Observable, Discrete, Single-Agent, Deterministic",
+                "Fully Observable, Continuous, Single-Agent, Deterministic"
+            ],
+            "solution": [
+                "Partially Observable, Discrete, Single-Agent, Deterministic"
+            ],
+            "difficulty": 3,
+            "id": "this is a placeholder for q4's iddd!"
+        },
+        {
+            "question": "What is the correct environment (E) categorization for a car?",
+            "choices": [
+                "Fully Observable, Continuous, Multi-Agent, Stochastic",
+                "Partially Observable, Continuous, Multi-Agent, Stochastic",
+                "Partially Observable, Discrete, Single-Agent, Deterministic",
+                "Fully Observable, Continuous, Single-Agent, Deterministic"
+            ],
+            "solution": [
+                "Partially Observable, Continuous, Multi-Agent, Stochastic"
+            ],
+            "difficulty": 4,
+            "id": "this is a placeholder forthe q4's id!"
+        }
+    ],
+    "search_definition": [
+        {
+            "question": "Search agents do which of the following?",
+            "choices": [
+                "Considers impacts of actions on future states",
+                "Always will yield a solution, even if it is suboptimal",
+                "Identifies actions or series of actions that lead to goals",
+                "Involve route finding and game move optimization"
+            ],
+            "solution": [
+                "Considers impacts of actions on future states",
+                "Identifies actions or series of actions that lead to goals",
+                "Involve route finding and game move optimization"
+            ],
+            "difficulty": 3,
+            "id": "dasraahgakagffsfad"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "agsngaskogskmgskmsgdfnjgsjnk"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "agsnganjggkamgkmdfadgsjnk"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "agsngaagjnjnfJKNFASsnkfgjgsjnjk"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "agsngaasdfaassddfnjgsjnkjhd"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "agfasdfasdfasdfsnganjgsjnkdg"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "agsngaasdfasdfnjgsjnkdhj"
+        }
+    ],
+    "simple_search": [
+        {
+            "question": "In simple search, which following statements are correct?",
+            "choices": [
+                "A frontier is required to keep track of possible actions that can be made from the current state",
+                "A frontier is required to keep track of the states that have already been visited",
+                "Failure can occur before every possible solution is explored"
+            ],
+            "solution": [
+                "A frontier is required to keep track of possible actions that can be made from the current state",
+                "Failure can occur before every possible solution is explored"
+            ],
+            "difficulty": 3,
+            "id": "dasraahsdasdfsfad"
+        },
+        {
+            "question": "Examples of simple search include:",
+            "choices": [
+                "8-puzzle",
+                "Route finding problems",
+                "Robot navigation",
+                "Chess"
+            ],
+            "solution": [
+                "8-puzzle",
+                "Route finding problems",
+                "Robot navigation"
+            ],
+            "difficulty": 1,
+            "id": "dasrasfad"
+        },
+        {
+            "question": "In simple search, what happens if a non-goal state has no neighbors?",
+            "choices": [
+                "The algorithm terminates with a \"FAILURE\" state",
+                "The algorithm terminates with a \"SUCCESS\" state",
+                "The algorithm continues exploring the frontier's states"
+            ],
+            "solution": [
+                "The algorithm continues exploring the frontier's states"
+            ],
+            "difficulty": 2,
+            "id": "dasfhkgraahsdasdfasfasdsfad"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "agsndfghdgfganjgsjnk"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "agsngasdfasdanjgsjnk"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "agsnganjgsjasdfank"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "agsnganasdfafdjgsjnk"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "adfasdfagsnganjgsjnk"
+        }
+    ],
+    "constraint_search": [
+        {
+            "question": "Constrained search problems:",
+            "choices": [
+                "Involve finding the best possible solution compared to other possible solutions",
+                "Involve finding any viable solution so long as it abides by constraining rules",
+                "Often involves problems like Chess and Go",
+                "Uses backtracking for runtime efficiency increases"
+            ],
+            "solution": [
+                "Involve finding any viable solution so long as it abides by constraining rules",
+                "Uses backtracking for runtime efficiency increases"
+            ],
+            "difficulty": 3,
+            "id": "fdsags"
+        },
+        {
+            "question": "Map coloring is an example of constraint satisfaction in which colors are chosen that:",
+            "choices": [
+                "Use only a specific amount of colors",
+                "Generates new colors if the select amount do not suffice",
+                "Uses \"costs\" of colors when considering which should be assigned to a region",
+                "Ensures adjacent regions do not share the same color"
+            ],
+            "solution": [
+                "Use only a specific amount of colors",
+                "Ensures adjacent regions do not share the same color"
+            ],
+            "difficulty": 2,
+            "id": "agis4hjgfd"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "agsnganjglkhjlhkj;sjnk"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "agsngankgjhkghjgsjnk"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "agsasdfasdfnganjgsjnk"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "agsngandfghdgfgsjnk"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "agsnfgkjfghganjgsjnk"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "agsnasdfasdfganjgsjnk"
+        }
+    ],
+    "adversarial_search": [
+        {
+            "question": "Adversarial search problems:",
+            "choices": [
+                "Are typically known as games",
+                "Occur in multiagent competitive environments",
+                "Results in a strategy rather than an optimal sequence of actions",
+                "Often cannot make the optimal decision when high branching factors are involved"
+            ],
+            "solution": [
+                "Are typically known as games",
+                "Occur in multiagent competitive environments",
+                "Results in a strategy rather than an optimal sequence of actions",
+                "Often cannot make the optimal decision when high branching factors are involved"
+            ],
+            "difficulty": 3,
+            "id": "dsgnjisdfg"
+        },
+        {
+            "question": "Which of the following are often used for adversarial search problems?",
+            "choices": [
+                "Implementing heuristic functions to evaluate the quality of certain states are for a select player",
+                "Modeling games as search functions",
+                "Calculating every possible state in every possible branch from the current state"
+            ],
+            "solution": [
+                "Implementing heuristic functions to evaluate the quality of certain states are for a select player",
+                "Modeling games as search functions"
+            ],
+            "difficulty": 3,
+            "id": "dsgnadfjisdfg"
+        }
+    ],
+    "delete_later_sub": [
+        {
+            "question": "True or False? Minimax is an adversarial search algorithm in which one player attempts to select the node of maximum value while the other player attempts to select the node of minimum value.",
+            "choices": [
+                "True",
+                "False"
+            ],
+            "solution": [
+                "True"
+            ],
+            "difficulty": 1,
+            "id": "dsgnjih45hyagsafddsdfg"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "agsnga45hy45hynjgsjnk"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "agsngan4hy5h45jgsjnk"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "a4h5h4ygsnganjgsjnk"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "e45h45agsnganjgsjnk"
+        },
+        {
+            "question": "delete later",
+            "choices": [
+                "a"
+            ],
+            "solution": [
+                "a"
+            ],
+            "difficulty": 2,
+            "id": "agsnganshdsgjgsjnk"
+        }
+    ],
+    "ml_basic_concepts": [
+        {
+            "question": "True or false? Machine learning involves learning from prior data.",
+            "choices": [
+                "True",
+                "False"
+            ],
+            "solution": [
+                "True"
+            ],
+            "difficulty": 1,
+            "id": "dsgnagdsjisdfg"
+        },
+        {
+            "question": "True or false? Map coloring is an example of machine learning since we must learn from prior map coloring data.",
+            "choices": [
+                "True",
+                "False"
+            ],
+            "solution": [
+                "False"
+            ],
+            "difficulty": 2,
+            "id": "dsgagdsnagdsjisdfg"
+        },
+        {
+            "question": "True or false? Spam versus not-spam labeling is an example of a machine learning application.",
+            "choices": [
+                "True",
+                "False"
+            ],
+            "solution": [
+                "True"
+            ],
+            "difficulty": 1,
+            "id": "dsgagdsnagdsahfdjisdfg"
+        },
+        {
+            "question": "True or false? Machine learning builds programs that learn from experience, without specifying the rules to solve the problem at hand.",
+            "choices": [
+                "True",
+                "False"
+            ],
+            "solution": [
+                "True"
+            ],
+            "difficulty": 1,
+            "id": "dsgagdsnahdfagdsahfdjisdfg"
+        }
+    ],
+    "perceptron_qs": [
+        {
+            "question": "True or false? The perceptron will only perform on linearly separable data",
+            "choices": [
+                "True",
+                "False"
+            ],
+            "solution": [
+                "True"
+            ],
+            "difficulty": 1,
+            "id": "jahfhaasfdasdfdhgadffdsfd"
+        },
+        {
+            "question": "Choose all of the following correct statements:",
+            "choices": [
+                "The Perceptron's hyperplane initially is defined randomly without observing the data",
+                "Over multiple iterations, the Perceptron's hyperplane is modified to adjust to the training data",
+                "If the data is not linearly separable, the Perceptron algorithm will never terminate",
+                "If the Perceptron algorithm terminates, it is guaranteed that the resultant hyperplane is valid",
+                "A single hyperplane created from the Perceptron algorithm can be great at modeling Boolean functions such as AND, OR, NOT, and XOR"
+            ],
+            "solution": [
+                "The Perceptron's hyperplane initially is defined randomly without observing the data",
+                "Over multiple iterations, the Perceptron's hyperplane is modified to adjust to the training data",
+                "If the data is not linearly separable, the Perceptron algorithm will never terminate",
+                "If the Perceptron algorithm terminates, it is guaranteed that the resultant hyperplane is valid"
+            ],
+            "difficulty": 4,
+            "id": "ahfhadhgadfhfdsfgfdsfd"
+        },
+        {
+            "question": "Which of the following is correct for modeling XOR functions?",
+            "choices": [
+                "A single Perceptron instance can effectively model the XOR function",
+                "Multiple Perceptron instances combined can effectively model the XOR function",
+                "Both strategies can effectively model the XOR function",
+                "The XOR function cannot be effectively modeled by Perceptrons alone"
+            ],
+            "solution": [
+                "Multiple Perceptron instances combined can effectively model the XOR function"
+            ],
+            "difficulty": 3,
+            "id": "afgfahfhadhgagdfhfdsfgfdsfd"
+        },
+        {
+            "question": "Select all correct statements. Multiple Layer Perceptrons (MLPs)...",
+            "choices": [
+                "Consist of a network of multiple layers of Perceptrons",
+                "Feeds Perceptron outputs into other Perceptrons' inputs",
+                "Is used to model the AND, OR, and NOT Boolean functions",
+                "Are a type of widely used neural network"
+            ],
+            "solution": [
+                "Consist of a network of multiple layers of Perceptrons",
+                "Feeds Perceptron outputs into other Perceptrons' inputs",
+                "Are a type of widely used neural network"
+            ],
+            "difficulty": 5,
+            "id": "gafafgfahfhadhgagdfhfdsfgfdsfd"
+        }
+    ],
+    "ai_and_ethics": [
+        {
+            "question": "Why is interpretability an important requirement to develop an ethical AI (check all that apply)?",
+            "choices": [
+                "Ensure AI models are as complex as possible so they perform well",
+                "Understand AI predictions",
+                "Ensure AI is fair",
+                "Advance science and our knowledge in general",
+                "Ensure AI is free",
+                "With transparent models, AI is more trusted and hence more used"
+            ],
+            "solution": [
+                "Understand AI predictions",
+                "Ensure AI is fair",
+                "Advance science and our knowledge in general",
+                "With transparent models, AI is more trusted and hence more used"
+            ],
+            "difficulty": 4,
+            "id": "jahfhaasfdasdfdzzhgadffdsfd"
+        },
+        {
+            "question": "The lecture video states that AI models can be unfair. Which of the following is true (check all that apply)?",
+            "choices": [
+                "Human discriminative decisions can find their ways in the data used to train AI models.",
+                "Data-driven models have the ability to reproduce patterns of past discrimination present in the data.",
+                "AI models are always fair and free of any bias.",
+                "Demographic disparities lead to the under-representation of some segments of our society (e.g., race, gender, etc.) in the data.",
+                "Decision-making based on AI can change the course of our lives and affect our access to opportunities (job, school, mortgage, healthcare, justice, etc.).",
+                "Because they are machine-generated, AI models do not have the ability to be unfair, unlike humans."
+            ],
+            "solution":[
+                "Human discriminative decisions can find their ways in the data used to train AI models.",
+                "Data-driven models have the ability to reproduce patterns of past discrimination present in the data.",
+                "Demographic disparities lead to the under-representation of some segments of our society (e.g., race, gender, etc.) in the data.",
+                "Decision-making based on AI can change the course of our lives and affect our access to opportunities (job, school, mortgage, healthcare, justice, etc.)."
+            ],
+            "difficulty": 3,
+            "id": "gfadgsgdfzdf"
+        },
+        {
+            "question": "Which of the following ideas could potentially help mitigate AI model bias on sensitive attributes (i.e., race, gender, etc)?",
+            "choices": [
+                "Ensure the data that models are trained on do is not bias itself.",
+                "Check the model's accuracy on different inputs to see if it performs different on sensitive attributes.",
+                "Avoid gathering any sensitive attributes data.",
+                "Gather focus groups consisting of diverse populations to test out your model."
+            ],
+            "solution":[
+                "Ensure the data that models are trained on do is not bias itself.",
+                "Check the model's accuracy on different inputs to see if it performs different on sensitive attributes.",
+                "Gather focus groups consisting of diverse populations to test out your model."
+            ],
+            "difficulty": 5,
+            "id": "gfaafdasddgsgdfzdf"
+        }
+    ]
+}
