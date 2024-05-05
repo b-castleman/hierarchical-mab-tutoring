@@ -1,6 +1,7 @@
 import json
 from .tree import Static_Tree, Build_Tree_Data
 
+
 def makeStaticTree(all_concepts, tree_structure):
     concept_problems = dict()
     for concept in all_concepts:
@@ -29,13 +30,14 @@ def makeStaticTree(all_concepts, tree_structure):
     )
 
 
-
 def makeProblemProgressionTrees(joint_progression_algorithm):
 
     progression_tree_problem_dict = dict()
     problem_difficulties = dict()
 
-    all_concepts = joint_progression_algorithm.progression_tree_concept.return_all_concepts()
+    all_concepts = (
+        joint_progression_algorithm.progression_tree_concept.return_all_concepts()
+    )
 
     with open(joint_progression_algorithm.problemsFilePath) as json_file:
         problemsDict = json.load(json_file)
