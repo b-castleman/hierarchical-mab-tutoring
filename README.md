@@ -72,6 +72,14 @@ Our BKT simulation data of 1500 students (groups of 500 students each) can be fo
 
 Castleman and Salleb-Aouissi, 2024. Coordination and Cooperation in Multi-Agent Reinforcement Learning Workshop, First Annual Conference on Reinforcement Learning. In review.
 
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue to discuss what you would like to change.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
 ## Questions
 
 Please contact bc3029@columbia.edu for any questions or comments.
