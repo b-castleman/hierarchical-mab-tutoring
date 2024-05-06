@@ -67,7 +67,6 @@ class ZPDES_Memory_CONCEPT(object):
 
         self.all_prereqs = self.progression_tree.return_all_ancestors()
         self.prereqs = self.progression_tree.return_parents()
-        # print("Self prereqs:",self.prereqs)
         self.children = self.progression_tree.return_children()
 
         self.weights = {
@@ -158,7 +157,6 @@ class ZPDES_Memory_CONCEPT(object):
 
                 # if we are accounting for memory by adding it into the concepts ZPDES should select from
                 if self.review_type == memory.REVIEW_TYPES.IN_PROGRESSION:
-                    print("REVIEW TYPES IN PROGRESSION")
                     memory_threshold = self.params["memory_threshold"]
                     memory_multiplier = self.params["memory_multiplier"]
 
@@ -176,12 +174,6 @@ class ZPDES_Memory_CONCEPT(object):
 
                 # select concept
                 pa = weights_ZPD / float(weights_sum)
-                # print("Probabilities - ZPD:")
-                # print(weights_ZPD)
-                # print("Probabilities - pa")
-                # print(pa)
-                # print("Concept Seletion")
-                # print(concepts_selection)
                 self.concept = np.random.choice(concepts_selection, 1, p=pa)[0]
 
             if self.review_type == memory.REVIEW_TYPES.AS_NECESSARY:
@@ -249,8 +241,7 @@ class ZPDES_Memory_CONCEPT(object):
                 student_answer_correctness = float(student_answer_correctness) * s
 
             self.correctnesses[concept].append(float(student_answer_correctness))
-            # print("CORRECTNESS MAP:")
-            # print(self.correctnesses)
+
             num_concept_attempts = len(self.correctnesses[concept])
 
             # Not enough concept attempts, it'll go out of bounds. Let's assume a bunch of incorrect concept attempts instead
@@ -260,7 +251,6 @@ class ZPDES_Memory_CONCEPT(object):
             negativeRewardEnd = positiveRewardStart
             negativeRewardStart = max(0, negativeRewardEnd - int(history_length / 2))
 
-            # print(positiveRewardStart,":",positiveRewardEnd,"--",negativeRewardStart,":",negativeRewardEnd)
 
             # Add positive reward first
             reward = sum(
@@ -275,10 +265,6 @@ class ZPDES_Memory_CONCEPT(object):
                 else 0
             )
 
-            # [0,0,1,1] 2 - 0 ,   [0,1,0,1] 1 - 1 = 0
-
-            # print("Reward:")
-            # print(reward)
             self.weights_histories[concept].append(reward)
 
             if (

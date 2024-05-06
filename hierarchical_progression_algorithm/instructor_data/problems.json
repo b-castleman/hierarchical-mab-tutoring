@@ -13,18 +13,7 @@
                 "AI is a technology that exclusively relies on human operators to perform tasks, with no autonomous decision-making capabilities."
             ],
             "difficulty": 2,
-            "id": "intro id!"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "agsnganjgsjnk"
+            "id": "0x73d4ab6583793b35a616c8d8384af65d"
         }
     ],
     "four_schools_of_thought": [
@@ -40,7 +29,7 @@
                 "Acting rationally"
             ],
             "difficulty": 2,
-            "id": "this is aa placeholder for q1's id"
+            "id": "0xf46ae0ae1b23eb6960cd0c2fafdc3f50"
         },
         {
             "question": "Which comment about the four schools of thought is NOT correct?",
@@ -54,7 +43,7 @@
                 "Thinking rationally: This school of thought is the most common approach to AI today."
             ],
             "difficulty": 3,
-            "id": "this iss a placeholder for q4's id"
+            "id": "0xd5a5c4681f5c85f594a1f2bf1243d0d6"
         },
         {
             "question": "Which school of thought includes using logical deductions to make inferences of the world?",
@@ -68,7 +57,7 @@
                 "Thinking rationally"
             ],
             "difficulty": 2,
-            "id": "this issss a placeholder for q5's id"
+            "id": "0x75ea3c398256b935146bb8f9bc8e9107"
         },
         {
             "question": "Which school of thought is concerned with neuroscience?",
@@ -82,7 +71,7 @@
                 "Thinking human-like"
             ],
             "difficulty": 2,
-            "id": "placeholder!!"
+            "id": "0x485bf09b8344c859adc71ed3b9e2f36c"
         },
         {
             "question": "Which school of thought includes the Turing Test (a computer exhibiting intelligent behaviour indistinguishable from that of a human)?",
@@ -96,7 +85,7 @@
                 "Acting human-like"
             ],
             "difficulty": 2,
-            "id": "placeholder here!"
+            "id": "0x103154279a9204307840139e6df54491"
         }
     ],
     "turing_test_definition": [
@@ -115,7 +104,7 @@
                 "The primary goal of the test is to determine if a machine can exhibit intelligent behavior indistinguishable from that of a human."
             ],
             "difficulty": 3,
-            "id": "idyay"
+            "id": "0x383c1ae34db1d8264ac64d83a674491d"
         },
         {
             "question": "What is the Turing Test",
@@ -128,7 +117,7 @@
                 "A test in which a human being should be unable to distinguish a machine's actions from another human"
             ],
             "difficulty": 1,
-            "id": "idyay!!!"
+            "id": "0x92fb2788241cd03f250c16af431375b4"
         }
     ],
     "turing_test_examples": [
@@ -145,7 +134,7 @@
                 "A machine and a human drive a car each with opaque windows, and the jury of humans has to guess which car belongs to the human."
             ],
             "difficulty": 3,
-            "id": "id!yay"
+            "id": "0x8f8451a16d8ee3720ecbc19ca6d3af86"
         },
         {
             "question": "A computer creates musical sounds and a human tries to decide if they were made by a human or a machine. Does this constitute a Turing Test?",
@@ -157,7 +146,7 @@
                 "True"
             ],
             "difficulty": 1,
-            "id": "id!responseyay"
+            "id": "0x73b13438915990117268550d18bfe82f"
         },
         {
             "question": "A computer competes against a human in solving a crossword puzzle the fastest. Does this constitute a Turing Test?",
@@ -169,12 +158,12 @@
                 "False"
             ],
             "difficulty": 1,
-            "id": "id!responseyaynice"
+            "id": "0x5f43a81a77812db0ed8056974e827449"
         }
     ],
     "applications_of_ai_examples": [
         {
-            "question": "Consider “DishMe”, a revolutionary AI to fill the dishwasher machine. DishMe can move around the kitchen. You put dirty dishes on the counter or in the sink or on top of the stove, and say no more, just push the button and DishMe will retrieve the dishes, pick them up, organize them in the dishwasher machine, and start a washing cycle. DishMe can handle all types of dishes and does a nifty good job at optimizing the space usage in the machine. What kind of AI applications is DishMe (check all that apply)?",
+            "question": "Consider \u201cDishMe\u201d, a revolutionary AI to fill the dishwasher machine. DishMe can move around the kitchen. You put dirty dishes on the counter or in the sink or on top of the stove, and say no more, just push the button and DishMe will retrieve the dishes, pick them up, organize them in the dishwasher machine, and start a washing cycle. DishMe can handle all types of dishes and does a nifty good job at optimizing the space usage in the machine. What kind of AI applications is DishMe (check all that apply)?",
             "choices": [
                 "Robotics",
                 "Computer vision",
@@ -189,7 +178,7 @@
                 "Planning"
             ],
             "difficulty": 4,
-            "id": "iafadasdf"
+            "id": "0xcb728f1daceb33d9d2def36034858708"
         },
         {
             "question": "Which of the following fields could AI be applied to (check all that apply)?",
@@ -210,7 +199,7 @@
                 "Games"
             ],
             "difficulty": 1,
-            "id": "iafadasdfdasd"
+            "id": "0x191c55843930b0e2da28075773379b9"
         },
         {
             "question": "Imagine Squiggly, a robot that, once a human speaks an input to, uses various motors and a pencil to write the given speech on a piece of paper. What kind of AI applications is Squiggly (check all that apply)?",
@@ -228,7 +217,7 @@
                 "Planning"
             ],
             "difficulty": 3,
-            "id": "words have been spoken!!"
+            "id": "0xa6b822400ab083c60ee7b03e59f70923"
         }
     ],
     "gestation_and_early_enthusiasm_era": [
@@ -245,7 +234,7 @@
                 "McCulloch and Pitts proposed a model for the neuron"
             ],
             "difficulty": 3,
-            "id": "stuff! nice"
+            "id": "0xe8a73a400b0a7e5e0c1fd605323e8a0a"
         },
         {
             "question": "Which inventions were popular during the Early Enthusiasm and Expectations era?",
@@ -260,7 +249,7 @@
                 "Adaline"
             ],
             "difficulty": 2,
-            "id": "somasfdadfseid!"
+            "id": "0xe40c1ef3eafd0346383880850585c06"
         },
         {
             "question": "Where was the term \"artificial intelligence\" coined from?",
@@ -274,7 +263,7 @@
                 "The Dartmouth Summer Research Project"
             ],
             "difficulty": 1,
-            "id": "somadsdgasdfeid!"
+            "id": "0xad62c59a9f20a3f5f1ecc99ab16b47ab"
         }
     ],
     "knowledge_based_era": [
@@ -294,7 +283,7 @@
                 "Use of toy examples could NOT scale up"
             ],
             "difficulty": 4,
-            "id": "asdfasdfs"
+            "id": "0x5f55f5af5938f467ca9ee5d2724b7fdf"
         },
         {
             "question": "Expert systems were created by",
@@ -308,7 +297,7 @@
                 "Encoding systems with domain knowledge"
             ],
             "difficulty": 2,
-            "id": "asdasdsa"
+            "id": "0x8ae2d4e9df8428a997162aaa4bcb777a"
         }
     ],
     "ai_becomes_scientific": [
@@ -331,7 +320,7 @@
                 "Multidisciplinary collaborations"
             ],
             "difficulty": 4,
-            "id": "dghdfghdf"
+            "id": "0x2ecf32f199759050fdeb72496794d6d8"
         },
         {
             "question": "The following ideas have been heavily emphasized in the \"AI Becomes Scientific\" era:",
@@ -352,7 +341,7 @@
                 "Deep learning"
             ],
             "difficulty": 5,
-            "id": "dghdfgdfgafghdf"
+            "id": "0x75c6dcefb2bd6d428c344961a775232f"
         },
         {
             "question": "The World Wide Web facilitated growing collections of:",
@@ -371,7 +360,7 @@
                 "Social networks"
             ],
             "difficulty": 1,
-            "id": "dghdfgasgasdfdfgafghdf"
+            "id": "0x3179cbf7d1ca3cb8077643e98dfe0e1"
         },
         {
             "question": "True or false? Probability became increasingly popular as a means of modeling uncertainty in the \"AI Becomes Scientific\" era.",
@@ -383,7 +372,7 @@
                 "True"
             ],
             "difficulty": 1,
-            "id": "agksfadfkskjndsf"
+            "id": "0xbbc4c4be657cadb7a770b1de0278c750"
         },
         {
             "question": "True or false? Deep learning reached success in the \"AI Becomes Scientific\" era through help from powerful hardware",
@@ -395,7 +384,7 @@
                 "True"
             ],
             "difficulty": 1,
-            "id": "agksfaagfdfkskjndsf"
+            "id": "0x126ed1e8590e39e51395eec128a8bef7"
         },
         {
             "question": "True or false? Deep learning consists a few layers with very limited parameters that are heavily trained upon to achieve high accuracies.",
@@ -407,23 +396,23 @@
                 "False"
             ],
             "difficulty": 2,
-            "id": "agksfaaghsgdafkmlfdfkskjndsf"
+            "id": "0x42d17d034c50e438c3cc48ea893e7f52"
         }
     ],
     "logic_review": [
         {
-            "question": "Given that p → q, what can we deduce if we know that ¬q is true?",
+            "question": "Given that p \u2192 q, what can we deduce if we know that \u00acq is true?",
             "choices": [
                 "There is not enough information",
-                "¬p is true",
+                "\u00acp is true",
                 "q is true",
                 "p is true"
             ],
             "solution": [
-                "¬p is true"
+                "\u00acp is true"
             ],
             "difficulty": 4,
-            "id": "asfdsadga"
+            "id": "0x44076c87cfe2a20889db943b189b3dbd"
         },
         {
             "question": "What can we deduce if we know that p V q is true?",
@@ -436,10 +425,10 @@
                 "There is not enough information"
             ],
             "difficulty": 2,
-            "id": "asfdsaasdfsaddga"
+            "id": "0xec80cf5f61e435e39705ac7acaa32590"
         },
         {
-            "question": "What can we deduce if we know that p ∧ q is true?",
+            "question": "What can we deduce if we know that p \u2227 q is true?",
             "choices": [
                 "There is not enough information",
                 "p is true",
@@ -450,7 +439,7 @@
                 "q is true"
             ],
             "difficulty": 2,
-            "id": "asfdsasdfasdaasdfsaddga"
+            "id": "0xad9613dff9e0a695659e41ab6582fd22"
         }
     ],
     "wumpus_specific": [
@@ -468,10 +457,10 @@
                 "Include logical deduction game examples such as Wumpus"
             ],
             "difficulty": 3,
-            "id": "asfdsasfgafgadadsfga"
+            "id": "0xf8a2c647b118dc84c6456c1422da6fb0"
         },
         {
-            "question": "Let the following be the knowledge base of an agent playing in Wumpus World, where the agent is current located at position (1,1): B_{1,1}, S_{1,1}, ¬P_{1,2}. What move should the logical agent take to optimize its points?",
+            "question": "Let the following be the knowledge base of an agent playing in Wumpus World, where the agent is current located at position (1,1): B_{1,1}, S_{1,1}, \u00acP_{1,2}. What move should the logical agent take to optimize its points?",
             "choices": [
                 "Move to (1,2)",
                 "Move to (2,1)",
@@ -482,7 +471,7 @@
                 "Shoot an arrow to (1,2)"
             ],
             "difficulty": 5,
-            "id": "asfdsasfgafgadga"
+            "id": "0x7ab49f28f8894f73e107cf7378c7255a"
         },
         {
             "question": "In Wumpus World, which of the following would an AI agent most likely benefit from in order to infer the agent's next action?",
@@ -495,7 +484,7 @@
                 "Logical deductions (i.e., logical entailment)"
             ],
             "difficulty": 1,
-            "id": "asfdsasfgafgadga"
+            "id": "0x50a0cd37715251c0ccebb2bea2e169ad"
         }
     ],
     "acting_rationally": [
@@ -511,7 +500,7 @@
                 "Doing the right thing"
             ],
             "difficulty": 2,
-            "id": "this issssss a plasdfadsaceholder for q1'sasdfadsfsd id"
+            "id": "0x46c1747e0c3e18a40f17f3a13bbbb61a"
         }
     ],
     "peas": [
@@ -527,7 +516,7 @@
                 "Cameras, infrared sensors"
             ],
             "difficulty": 1,
-            "id": "this is a fasplaceholderasfdadsf for q1's id!"
+            "id": "0x3b680f9c870086a5db9353a7d78fc1ce"
         },
         {
             "question": "In PEAS, what would the list for letter \"A\" consist of in a self driving car?",
@@ -541,7 +530,7 @@
                 "Wheels, motor, turn signal"
             ],
             "difficulty": 2,
-            "id": "this isaf a placehoafgagfslder for q1's id!"
+            "id": "0x7cb46fff715d6f30819e7f8b7c6f4ce5"
         },
         {
             "question": "In PEAS, what would the list for letter \"P\" consist of for Wumpus World?",
@@ -554,7 +543,7 @@
                 "Gold collected, current score"
             ],
             "difficulty": 3,
-            "id": "this is a placehoafgagfsldeafdsfadjhbr for q1's id!"
+            "id": "0x10fec477b3b647c5064564d13db6af0d"
         }
     ],
     "environment_types": [
@@ -570,7 +559,7 @@
                 "Partially Observable, Discrete, Single-Agent, Deterministic"
             ],
             "difficulty": 3,
-            "id": "this is a placeholder for q4's iddd!"
+            "id": "0x63aa8cdb2638b522d01bfe1d3ebb5ec3"
         },
         {
             "question": "What is the correct environment (E) categorization for a car?",
@@ -584,7 +573,7 @@
                 "Partially Observable, Continuous, Multi-Agent, Stochastic"
             ],
             "difficulty": 4,
-            "id": "this is a placeholder forthe q4's id!"
+            "id": "0x25a1e413def5b3d88ea801e7acf86256"
         }
     ],
     "search_definition": [
@@ -602,73 +591,7 @@
                 "Involve route finding and game move optimization"
             ],
             "difficulty": 3,
-            "id": "dasraahgakagffsfad"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "agsngaskogskmgskmsgdfnjgsjnk"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "agsnganjggkamgkmdfadgsjnk"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "agsngaagjnjnfJKNFASsnkfgjgsjnjk"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "agsngaasdfaassddfnjgsjnkjhd"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "agfasdfasdfasdfsnganjgsjnkdg"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "agsngaasdfasdfnjgsjnkdhj"
+            "id": "0xc9ba0d496eeff116dd180a835067e580"
         }
     ],
     "simple_search": [
@@ -684,7 +607,7 @@
                 "Failure can occur before every possible solution is explored"
             ],
             "difficulty": 3,
-            "id": "dasraahsdasdfsfad"
+            "id": "0x8c4d02e391ab474455239c594b265b98"
         },
         {
             "question": "Examples of simple search include:",
@@ -700,7 +623,7 @@
                 "Robot navigation"
             ],
             "difficulty": 1,
-            "id": "dasrasfad"
+            "id": "0xde6b22e99b51c1372eb9e7765045d93b"
         },
         {
             "question": "In simple search, what happens if a non-goal state has no neighbors?",
@@ -713,62 +636,7 @@
                 "The algorithm continues exploring the frontier's states"
             ],
             "difficulty": 2,
-            "id": "dasfhkgraahsdasdfasfasdsfad"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "agsndfghdgfganjgsjnk"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "agsngasdfasdanjgsjnk"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "agsnganjgsjasdfank"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "agsnganasdfafdjgsjnk"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "adfasdfagsnganjgsjnk"
+            "id": "0xaac30e3b7517d022fc89326eced81e6d"
         }
     ],
     "constraint_search": [
@@ -785,7 +653,7 @@
                 "Uses backtracking for runtime efficiency increases"
             ],
             "difficulty": 3,
-            "id": "fdsags"
+            "id": "0x28714b7eb2644ab61bab3474614441bf"
         },
         {
             "question": "Map coloring is an example of constraint satisfaction in which colors are chosen that:",
@@ -800,73 +668,7 @@
                 "Ensures adjacent regions do not share the same color"
             ],
             "difficulty": 2,
-            "id": "agis4hjgfd"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "agsnganjglkhjlhkj;sjnk"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "agsngankgjhkghjgsjnk"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "agsasdfasdfnganjgsjnk"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "agsngandfghdgfgsjnk"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "agsnfgkjfghganjgsjnk"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "agsnasdfasdfganjgsjnk"
+            "id": "0x62fea14388bc886c724771dce719e1bc"
         }
     ],
     "adversarial_search": [
@@ -885,7 +687,7 @@
                 "Often cannot make the optimal decision when high branching factors are involved"
             ],
             "difficulty": 3,
-            "id": "dsgnjisdfg"
+            "id": "0xf7d7a74834faf8bfa145a78de910b9d3"
         },
         {
             "question": "Which of the following are often used for adversarial search problems?",
@@ -899,76 +701,7 @@
                 "Modeling games as search functions"
             ],
             "difficulty": 3,
-            "id": "dsgnadfjisdfg"
-        }
-    ],
-    "delete_later_sub": [
-        {
-            "question": "True or False? Minimax is an adversarial search algorithm in which one player attempts to select the node of maximum value while the other player attempts to select the node of minimum value.",
-            "choices": [
-                "True",
-                "False"
-            ],
-            "solution": [
-                "True"
-            ],
-            "difficulty": 1,
-            "id": "dsgnjih45hyagsafddsdfg"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "agsnga45hy45hynjgsjnk"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "agsngan4hy5h45jgsjnk"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "a4h5h4ygsnganjgsjnk"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "e45h45agsnganjgsjnk"
-        },
-        {
-            "question": "delete later",
-            "choices": [
-                "a"
-            ],
-            "solution": [
-                "a"
-            ],
-            "difficulty": 2,
-            "id": "agsnganshdsgjgsjnk"
+            "id": "0xe3b3c929c05c546c0fa33ddcad31bb64"
         }
     ],
     "ml_basic_concepts": [
@@ -982,7 +715,7 @@
                 "True"
             ],
             "difficulty": 1,
-            "id": "dsgnagdsjisdfg"
+            "id": "0x774286e204150e52752dea4030276fd0"
         },
         {
             "question": "True or false? Map coloring is an example of machine learning since we must learn from prior map coloring data.",
@@ -994,7 +727,7 @@
                 "False"
             ],
             "difficulty": 2,
-            "id": "dsgagdsnagdsjisdfg"
+            "id": "0x64461d53dfc65a56eaceec49aa88309b"
         },
         {
             "question": "True or false? Spam versus not-spam labeling is an example of a machine learning application.",
@@ -1006,7 +739,7 @@
                 "True"
             ],
             "difficulty": 1,
-            "id": "dsgagdsnagdsahfdjisdfg"
+            "id": "0x1839c0ebb4c1d62bb2d8ac1ac8ec6589"
         },
         {
             "question": "True or false? Machine learning builds programs that learn from experience, without specifying the rules to solve the problem at hand.",
@@ -1018,7 +751,7 @@
                 "True"
             ],
             "difficulty": 1,
-            "id": "dsgagdsnahdfagdsahfdjisdfg"
+            "id": "0x145aaa810d4e39d62a9e2c09f29d17fc"
         }
     ],
     "perceptron_qs": [
@@ -1032,7 +765,7 @@
                 "True"
             ],
             "difficulty": 1,
-            "id": "jahfhaasfdasdfdhgadffdsfd"
+            "id": "0xf6a077e616d322124989f74f8733c45a"
         },
         {
             "question": "Choose all of the following correct statements:",
@@ -1050,7 +783,7 @@
                 "If the Perceptron algorithm terminates, it is guaranteed that the resultant hyperplane is valid"
             ],
             "difficulty": 4,
-            "id": "ahfhadhgadfhfdsfgfdsfd"
+            "id": "0xb97f21b1c3511706ec1e686bdce1c727"
         },
         {
             "question": "Which of the following is correct for modeling XOR functions?",
@@ -1064,7 +797,7 @@
                 "Multiple Perceptron instances combined can effectively model the XOR function"
             ],
             "difficulty": 3,
-            "id": "afgfahfhadhgagdfhfdsfgfdsfd"
+            "id": "0x76b09529f648c8f5b6f626c42867d4d6"
         },
         {
             "question": "Select all correct statements. Multiple Layer Perceptrons (MLPs)...",
@@ -1080,7 +813,7 @@
                 "Are a type of widely used neural network"
             ],
             "difficulty": 5,
-            "id": "gafafgfahfhadhgagdfhfdsfgfdsfd"
+            "id": "0x3624644a283283b331ff1cbe1f0c49e0"
         }
     ],
     "ai_and_ethics": [
@@ -1101,7 +834,7 @@
                 "With transparent models, AI is more trusted and hence more used"
             ],
             "difficulty": 4,
-            "id": "jahfhaasfdasdfdzzhgadffdsfd"
+            "id": "0x2251f857a97adb4a28444fbcf60f6adc"
         },
         {
             "question": "The lecture video states that AI models can be unfair. Which of the following is true (check all that apply)?",
@@ -1113,14 +846,14 @@
                 "Decision-making based on AI can change the course of our lives and affect our access to opportunities (job, school, mortgage, healthcare, justice, etc.).",
                 "Because they are machine-generated, AI models do not have the ability to be unfair, unlike humans."
             ],
-            "solution":[
+            "solution": [
                 "Human discriminative decisions can find their ways in the data used to train AI models.",
                 "Data-driven models have the ability to reproduce patterns of past discrimination present in the data.",
                 "Demographic disparities lead to the under-representation of some segments of our society (e.g., race, gender, etc.) in the data.",
                 "Decision-making based on AI can change the course of our lives and affect our access to opportunities (job, school, mortgage, healthcare, justice, etc.)."
             ],
             "difficulty": 3,
-            "id": "gfadgsgdfzdf"
+            "id": "0x824da9f360ee1558d2afa528d7bee203"
         },
         {
             "question": "Which of the following ideas could potentially help mitigate AI model bias on sensitive attributes (i.e., race, gender, etc)?",
@@ -1130,13 +863,13 @@
                 "Avoid gathering any sensitive attributes data.",
                 "Gather focus groups consisting of diverse populations to test out your model."
             ],
-            "solution":[
+            "solution": [
                 "Ensure the data that models are trained on do is not bias itself.",
                 "Check the model's accuracy on different inputs to see if it performs different on sensitive attributes.",
                 "Gather focus groups consisting of diverse populations to test out your model."
             ],
             "difficulty": 5,
-            "id": "gfaafdasddgsgdfzdf"
+            "id": "0x2e27cec1668af232b240128e2c1bf67"
         }
     ]
 }

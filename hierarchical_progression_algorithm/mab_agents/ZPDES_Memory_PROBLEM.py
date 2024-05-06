@@ -41,7 +41,6 @@ class ZPDES_Memory_PROBLEM(object):
         # Load in the tree
         self.progression_tree = progression_tree
         all_concepts_list = self.progression_tree.return_all_concepts()
-        # print("ALL CONCEPTS:",all_concepts_list)
         all_components_list = self.progression_tree.return_all_basic_components()
 
         for concept in all_concepts_list:
@@ -94,7 +93,6 @@ class ZPDES_Memory_PROBLEM(object):
 
         self.all_prereqs = self.progression_tree.return_all_ancestors()
         self.prereqs = self.progression_tree.return_parents()
-        # print("Self prereqs:",self.prereqs)
         self.children = self.progression_tree.return_children()
 
         self.weights = {
@@ -124,9 +122,6 @@ class ZPDES_Memory_PROBLEM(object):
         self.memory_type = memory.MEMORY_TYPES.MCM_AVERAGE
         self.time_type = memory.TIME_TYPES.DISCRETE
         self.review_type = memory.REVIEW_TYPES.AS_NECESSARY
-        # self.memory_type = None
-        # self.time_type = None
-        # self.review_type = None
 
         self.begin_continuous_time = current_time()
         self.discrete_time = 0
@@ -173,19 +168,13 @@ class ZPDES_Memory_PROBLEM(object):
             if self.memory_concept == None:
 
                 # Remove repeat possibilities so we dont get the same problem twice
-                # print("self.ZPD:")
-                # print(self.ZPD)
+
                 ZPD = copy.deepcopy(self.ZPD)
 
-                # print("Last Concept:")
-                # print(self.last_concept)
+
                 if len(ZPD) > 1 and self.last_concept in ZPD:
                     ZPD.remove(self.last_concept)
-                    # idx = ZPD.index(self.last_concept)
-                    # del ZPD[idx]
-                    # del
-                # print("ZPD:")
-                # print(ZPD)
+
 
                 length_ZPD = len(ZPD)
                 weights_ZPD = np.zeros(length_ZPD)
@@ -200,32 +189,23 @@ class ZPDES_Memory_PROBLEM(object):
                         mean_weight = np.mean(self.weights_histories[concept])
                     self.weights[concept] = max(mean_weight, self.params["min_weight"])
                     weights_ZPD[idx] = self.weights[concept]
-                    # print("Before for",concept,":",weights_ZPD[idx])
                     weights_ZPD[idx] *= self.m[concept]  # difficulty alter multiplier
-                    # print("After for",concept,":",weights_ZPD[idx])
+
 
                     weights_sum += weights_ZPD[idx]
 
-                print("Pre Explore Problem Weights:")
-                print(weights_ZPD)
+
 
                 # add exploration in
-                # weights_ZPD = weights_ZPD + (float(weights_sum) * gamma/( 1.0 - gamma )) * zeta
                 weights_ZPD = (
                     weights_ZPD * (1 - gamma) + gamma / length_ZPD
-                )  # (float(weights_sum) * gamma/( 1.0 - gamma )) * zeta
-                # weights_sum += weights_sum * gamma/float( 1.0 - gamma)
+                ) 
                 weights_sum = sum(weights_ZPD)
                 concepts_selection = copy.deepcopy(ZPD)
 
-                print("Problem ZPD:")
-                print(concepts_selection)
-                print("Post Explore Problem Weights:")
-                print(weights_ZPD)
 
                 # if we are accounting for memory by adding it into the concepts ZPDES should select from
                 if self.review_type == memory.REVIEW_TYPES.IN_PROGRESSION:
-                    print("REVIEW TYPES IN PROGRESSION")
                     memory_threshold = self.params["memory_threshold"]
                     memory_multiplier = self.params["memory_multiplier"]
 
@@ -243,12 +223,7 @@ class ZPDES_Memory_PROBLEM(object):
 
                 # select concept
                 pa = weights_ZPD / float(weights_sum)
-                print("Problem Probability")
-                print(pa)
-                # print("Probabilities - pa")
-                # print(pa)
-                # print("Concept Selection")
-                # print(concepts_selection)
+     
                 self.concept = np.random.choice(concepts_selection, 1, p=pa)[0]
 
             if self.review_type == memory.REVIEW_TYPES.AS_NECESSARY:
@@ -315,8 +290,7 @@ class ZPDES_Memory_PROBLEM(object):
             alpha4 = self.params["alpha4"]
 
             self.correctnesses[concept].append(student_answer_correctness)
-            # print("CORRECTNESS MAP:")
-            # print(self.correctnesses)
+
             num_concept_attempts = len(self.correctnesses[concept])
 
             # Not enough concept attempts, it'll go out of bounds. Let's assume a bunch of incorrect concept attempts instead
@@ -326,7 +300,6 @@ class ZPDES_Memory_PROBLEM(object):
             negativeRewardEnd = positiveRewardStart
             negativeRewardStart = max(0, negativeRewardEnd - int(history_length / 2))
 
-            # print(positiveRewardStart,":",positiveRewardEnd,"--",negativeRewardStart,":",negativeRewardEnd)
 
             # Add positive reward first
             reward = sum(
@@ -341,8 +314,6 @@ class ZPDES_Memory_PROBLEM(object):
                 else 0
             )
 
-            # print("Reward:")
-            # print(reward)
             self.weights_histories[concept].append(reward)
 
             # For the problem MAB, we'll automatically remove this problem from the ZPD if answered correctly
@@ -377,10 +348,7 @@ class ZPDES_Memory_PROBLEM(object):
 
             ## Correct weights based on difficulties and answer correctness
 
-            # print("Before:")
-            # print(self.weights_histories)
-
-            # print("Gamma_b",self.params['gamma'])
+         
 
             # Get question difficulty
             qs_difficulty = self.problem_difficulties[concept]
@@ -405,9 +373,6 @@ class ZPDES_Memory_PROBLEM(object):
                 # Decrease exploration factor
                 self.params["gamma"] *= alpha4
 
-            # print("After:")
-            # print(self.weights_histories)
-            # print("Gamma_a",self.params['gamma'])
 
         self.new_problem()
 
