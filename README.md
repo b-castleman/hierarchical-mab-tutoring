@@ -52,7 +52,7 @@ To modify, apply, or implement this algorithm yourself, consider the following r
         - ```question``` (optional) str: the question being asked
         - ```choices``` (optional) list[str]: all possible answers the student can select
         - ```solution``` (optional) list[str]: the correct answer(s) to the problem
-        - ```difficulty``` (optional) int: the difficulty of the problem between [1,5]
+        - ```difficulty``` (required) int: the difficulty of the problem between [1,5]
         - ```id``` (required) str: a *unique* id, which cannot be shared with any other problem)
 - ```./hierarchical_progression_algorithm/Joint_Progression_Algorithm.py``` contains parameters used in the fine-tuning of the algorithm
   - ```params_concept``` and ```params_problem``` contain the parameters and constants used for mastery definition, window size, memory effects, and min/max concept assessments
