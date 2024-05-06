@@ -251,7 +251,6 @@ class ZPDES_Memory_CONCEPT(object):
             negativeRewardEnd = positiveRewardStart
             negativeRewardStart = max(0, negativeRewardEnd - int(history_length / 2))
 
-
             # Add positive reward first
             reward = sum(
                 self.correctnesses[concept][positiveRewardStart:positiveRewardEnd]

@@ -171,10 +171,8 @@ class ZPDES_Memory_PROBLEM(object):
 
                 ZPD = copy.deepcopy(self.ZPD)
 
-
                 if len(ZPD) > 1 and self.last_concept in ZPD:
                     ZPD.remove(self.last_concept)
-
 
                 length_ZPD = len(ZPD)
                 weights_ZPD = np.zeros(length_ZPD)
@@ -191,18 +189,12 @@ class ZPDES_Memory_PROBLEM(object):
                     weights_ZPD[idx] = self.weights[concept]
                     weights_ZPD[idx] *= self.m[concept]  # difficulty alter multiplier
 
-
                     weights_sum += weights_ZPD[idx]
 
-
-
                 # add exploration in
-                weights_ZPD = (
-                    weights_ZPD * (1 - gamma) + gamma / length_ZPD
-                ) 
+                weights_ZPD = weights_ZPD * (1 - gamma) + gamma / length_ZPD
                 weights_sum = sum(weights_ZPD)
                 concepts_selection = copy.deepcopy(ZPD)
-
 
                 # if we are accounting for memory by adding it into the concepts ZPDES should select from
                 if self.review_type == memory.REVIEW_TYPES.IN_PROGRESSION:
@@ -223,7 +215,7 @@ class ZPDES_Memory_PROBLEM(object):
 
                 # select concept
                 pa = weights_ZPD / float(weights_sum)
-     
+
                 self.concept = np.random.choice(concepts_selection, 1, p=pa)[0]
 
             if self.review_type == memory.REVIEW_TYPES.AS_NECESSARY:
@@ -300,7 +292,6 @@ class ZPDES_Memory_PROBLEM(object):
             negativeRewardEnd = positiveRewardStart
             negativeRewardStart = max(0, negativeRewardEnd - int(history_length / 2))
 
-
             # Add positive reward first
             reward = sum(
                 self.correctnesses[concept][positiveRewardStart:positiveRewardEnd]
@@ -348,8 +339,6 @@ class ZPDES_Memory_PROBLEM(object):
 
             ## Correct weights based on difficulties and answer correctness
 
-         
-
             # Get question difficulty
             qs_difficulty = self.problem_difficulties[concept]
             if student_answer_correctness:
@@ -372,7 +361,6 @@ class ZPDES_Memory_PROBLEM(object):
 
                 # Decrease exploration factor
                 self.params["gamma"] *= alpha4
-
 
         self.new_problem()
 
