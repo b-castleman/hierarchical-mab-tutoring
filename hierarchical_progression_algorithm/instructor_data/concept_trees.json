@@ -1,0 +1,53 @@
+
+{
+    "ai_intro_and_defs": {
+        "Root": ["ai_definitions"],
+        "ai_definitions": ["four_schools_of_thought"],
+        "four_schools_of_thought": []
+    },
+    "turing_test": {
+        "Root": ["turing_test_definition"],
+        "turing_test_definition": ["turing_test_examples"],
+        "turing_test_examples": []
+    },
+    "applications_of_ai": {
+        "Root": ["applications_of_ai_examples"],
+        "applications_of_ai_examples": []
+    },
+    "history_of_ai": {
+        "Root": ["gestation_and_early_enthusiasm_era"],
+        "gestation_and_early_enthusiasm_era": ["knowledge_based_era"],
+        "knowledge_based_era": ["ai_becomes_scientific"],
+        "ai_becomes_scientific": []
+    },
+    "logical_agents": {
+        "Root": ["wumpus_specific", "logic_review"],
+        "logic_review": [],
+        "wumpus_specific": []
+    },
+    "rational_agents": {
+        "Root": ["acting_rationally"],
+        "acting_rationally": ["peas", "environment_types"],
+        "peas": [],
+        "environment_types": []
+    },
+    "search": {
+        "Root": ["search_definition"],
+        "search_definition": [
+            "simple_search",
+            "constraint_search",
+            "adversarial_search"
+        ],
+        "adversarial_search": [],
+        "simple_search": [],
+        "constraint_search": []
+    },
+    "ml_intro": {
+        "Root": ["ml_basic_concepts"], 
+        "ml_basic_concepts": []
+    },
+    "perceptron": {
+        "Root": ["perceptron_qs"],
+        "perceptron_qs": []
+    }
+}

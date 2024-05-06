@@ -1,8 +1,7 @@
-import json
 import time
 import random
 import copy
-import memory
+from .memory import memory
 import math
 import numpy as np
 

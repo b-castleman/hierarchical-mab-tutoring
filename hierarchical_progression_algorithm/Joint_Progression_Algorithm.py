@@ -1,18 +1,20 @@
 import math
 
+from .mab_agents.ZPDES_Memory_CONCEPT import ZPDES_Memory_CONCEPT
+from .mab_agents.ZPDES_Memory_PROBLEM import ZPDES_Memory_PROBLEM
+
 from .utils.progression_tree_creation import (
     makeProblemProgressionTrees,
     makeConceptProgressionTree,
 )
 
-from .mab_agents.ZPDES_Memory_CONCEPT import ZPDES_Memory_CONCEPT
-from .mab_agents.ZPDES_Memory_PROBLEM import ZPDES_Memory_PROBLEM
-
 
 class Joint_Progression_Algorithm(object):
 
     def __init__(
-        self, curSection: str, problemsFilePath: str = "./instructor_data/problems.json"
+        self,
+        curSection: str,
+        problemsFilePath: str = "./hierarchical_progression_algorithm/instructor_data/problems.json",
     ):
 
         # Make Concept and Problem Progression Trees
