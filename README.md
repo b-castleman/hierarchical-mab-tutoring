@@ -4,6 +4,10 @@ We combine recent literature on multi-armed bandit (MAB) intelligent tutoring te
 
 Note this code was founded [on the scaffolding by Tong Mu](https://github.com/StanfordAI4HI/Automatic_Curriculum_ZPDES_Memory)
 
+## Paper Link
+
+This will be provided at a future date
+
 ## Installation
 
 The following packages are required:
