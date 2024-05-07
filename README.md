@@ -70,7 +70,7 @@ Our BKT simulation data of 1500 students (groups of 500 students each) can be fo
 
 ## Citation
 
-Castleman and Salleb-Aouissi, 2024. Coordination and Cooperation in Multi-Agent Reinforcement Learning Workshop, First Annual Conference on Reinforcement Learning. In review.
+Castleman and Salleb-Aouissi, 2024. Hierarchical Multi-Armed Bandits for the Concurrent Intelligent Tutoring of Concepts and Problems of Varying Difficulty Levels. First Annual Conference on Reinforcement Learning. In review.
 
 ## Contributing
 
