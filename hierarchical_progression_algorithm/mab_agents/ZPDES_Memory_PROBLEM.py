@@ -359,7 +359,7 @@ class ZPDES_Memory_PROBLEM(object):
                     elif self.problem_difficulties[zpdConcept] > qs_difficulty:
                         self.m[zpdConcept] *= alpha1
 
-                # Decrease exploration factor
+                # Decrease exploration factor (note alpha4=1 and is therefore unused in Castleman et al., 2024)
                 self.params["gamma"] *= alpha4
 
         self.new_problem()
